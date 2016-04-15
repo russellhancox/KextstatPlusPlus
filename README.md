@@ -6,7 +6,7 @@ kextstat++
 Usage
 -----
 
-./kextstat bundle-id <wanted-key>
+`./kextstat bundle-id <wanted-key>`
 
 Example Output
 --------------
@@ -36,7 +36,9 @@ OSBundleCPUSubtype = 3
 OSBundlePrelinked = NO
 OSBundleIsInterface = NO
 OSBundleLoadSize = 90112
+```
 
+```sh
 $ ./kextstat++ com.github.osxfuse.filesystems.osxfusefs osbundleloadaddress
 OSBundleLoadAddress = 0xffffff7f83ca6000
 ```
